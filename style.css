@@ -1,0 +1,83 @@
+.header{
+    background-color:rgb(201, 199, 199);
+    display: flex;
+    justify-content: space-around;
+    justify-self: center;
+    padding: 5px;
+
+}
+
+.headerOptions{
+    color: rgb(31, 72, 255);
+    border: 2px solid black;
+    padding: 5px;
+    border-radius: 20px;
+}
+
+.titleHolder{
+    display: flex;
+
+    height: fit-content;
+}
+
+.title{
+
+    display: flex;
+    justify-content: center;
+    width: fit-content;
+    font-size: 4rem;
+    font-weight: 700;
+    padding-left: 500px;
+    font-family:Georgia, 'Times New Roman', Times, serif
+}
+
+.subHeadingHolder{
+    display: flex;
+    /*the code one line below reduces the gap between title and subtitle, it is a bit doggy but i cant find a better work around*/
+    margin-top: -50px;
+    width:2100px
+}
+
+.subTitle{
+
+    display: flex;
+    padding-left: 500px;
+    font-size: 28px;
+}
+.mainPage{
+    border: 3px ;
+    display: flex;
+    justify-content: space-around;
+    height: 500px;
+
+
+}
+.mainPageItems{
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 35%;
+
+}
+
+.text{
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer{
+    color: rgb(31, 72, 255);
+    display: flex;
+    justify-content: space-around;
+    position: fixed;
+    bottom: 2px;
+    left: 0px;
+    right: 0px;
+}
+
+.footerOptions{
+    border: 2px solid black;
+    padding: 5px;
+    border-radius: 20px;
+}
