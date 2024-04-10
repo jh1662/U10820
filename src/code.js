@@ -1,4 +1,4 @@
-// READ ME: If you want to change the img count in the "../assests/sernario/" folder, change the number in the line below VVV
+// READ ME: If you want to change the img count in the "../assests/sernario/" folder, change the number in the line below vv
 const imgNumMax = 7;
 
 var imgNum = 0;
