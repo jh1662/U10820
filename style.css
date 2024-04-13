@@ -1,33 +1,35 @@
+.headerHolder{
+    padding-left: 5vw;
+}
 .header{
-    background-color:rgb(201, 199, 199);
     display: flex;
     justify-content: space-around;
-    justify-self: center;
     padding: 5px;
-
+    width: 40vw;
+    align-items: center;
 }
 
 .headerOptions{
     color: rgb(31, 72, 255);
     border: 2px solid black;
-    padding: 5px;
+    padding-top: 5px;
     border-radius: 20px;
+    height: fit-content;
+
 }
 
 .titleHolder{
     display: flex;
-
     height: fit-content;
 }
 
 .title{
-
     display: flex;
     justify-content: center;
     width: fit-content;
     font-size: 4rem;
-    font-weight: 700;
-    padding-left: 500px;
+    font-weight: 900;
+    padding-left: 19vw;
     font-family:Georgia, 'Times New Roman', Times, serif
 }
 
@@ -35,14 +37,15 @@
     display: flex;
     /*the code one line below reduces the gap between title and subtitle, it is a bit doggy but i cant find a better work around*/
     margin-top: -50px;
-    width:2100px
+    width:80vw
 }
 
 .subTitle{
 
     display: flex;
-    padding-left: 500px;
+    padding-left: 19vw;
     font-size: 28px;
+    font-weight: 500;
 }
 .mainPage{
     border: 3px ;
