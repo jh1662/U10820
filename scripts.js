@@ -1,3 +1,7 @@
-window.onload() = function(){
+function openQuizPage(){
+    window.location.href = "QuizPage.html"
 
+}
+function openHomePage(){
+    window.location.href = "index.html";
 }
