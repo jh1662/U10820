@@ -37,7 +37,8 @@
     display: flex;
     /*the code one line below reduces the gap between title and subtitle, it is a bit doggy but i cant find a better work around*/
     margin-top: -50px;
-    width:80vw
+    width:80vw;
+    text-align: center;
 }
 
 .subTitle{
@@ -79,8 +80,10 @@
     right: 0px;
 }
 
-.footerOptions{
+.footerOptions {
+    color: rgb(31, 72, 255);
     border: 2px solid black;
     padding: 5px;
     border-radius: 20px;
+    cursor: pointer;
 }
