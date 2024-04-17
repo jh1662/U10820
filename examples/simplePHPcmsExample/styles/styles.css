@@ -1,0 +1,30 @@
+body {
+font-family: Verdana, Arial, sans-serif; /* set dyslexic friendly fonts */
+margin:0 15% 0 15%;
+}
+
+h1 {
+padding: 0.5em 0 0.5em 0;
+color: blue;	
+}
+
+h2 {
+padding: 0.25em 0 0.25em 0;
+color: green;	
+}
+
+h3 {
+padding: 0.125em 0 0.125em 0;
+color: orange;	
+}
+
+pre { /*use pre tag for displaying code and code output */
+border-style : solid;
+border-radius: 1em;
+padding:2% 5% 2% 5%;
+text-align: justify;
+/*pre doesn’t support wrapping, by default */
+overflow-x: auto;       /*allow auto text overflow */
+white-space: pre-wrap;  /*allow pre tag to wrap text */
+background-color:Turquoise;
+}
