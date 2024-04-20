@@ -16,3 +16,18 @@ CREATE TABLE `Course` (
 	PRIMARY KEY (`iD`),
   CONSTRAINT degreeFK FOREIGN KEY (degree) REFERENCES Degree(value)
 );
+
+INSERT INTO Degree (value)
+VALUES
+('BEng'),
+('BSc'),
+('MEng'),
+('MSC')
+;
+
+-- population from www.canterbury.ac.uk/about-us/faculties-schools-and-departments/faculty-of-science-engineering-and-social-sciences/school-of-engineering-technology-and-design
+INSERT INTO Course (fullName, degree, isUndergrad, hasFoundation, description)
+VALUES ('Course name',(SELECT value FROM degree WHERE iD = 2), TRUE, FALSE, 'desc');
+
+SELECT * FROM Degree;
+SELECT * FROM Course;
