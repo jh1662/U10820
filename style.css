@@ -1,12 +1,18 @@
+body{
+    display: flex;
+    flex-direction: column;
+}
 .headerHolder{
     padding-left: 5vw;
+    margin: -8px;
 }
 .header{
     display: flex;
     justify-content: space-around;
-    padding: 5px;
+    padding: 10px;
     width: 40vw;
     align-items: center;
+
 }
 
 .headerOptions{
@@ -16,6 +22,15 @@
     border-radius: 20px;
     height: fit-content;
     cursor: pointer;
+    
+}
+
+.top-section{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #72a9f680;
+    margin: -8px;
 }
 
 .titleHolder{
@@ -49,35 +64,61 @@
     font-weight: 500;
 }
 .mainPage{
-    border: 3px ;
     display: flex;
-    justify-content: space-around;
-    height: 500px;
-
+    height: fit-content;
+    margin: 20px;
+    justify-content: center;
 
 }
 .mainPageItems{
-    border: 2px solid black;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 35%;
-
+    width: 813px;
+    flex-wrap: wrap;
+    height: 810px;
 }
 
 .text{
+    border: 2px solid black;
     display: flex;
-    justify-content: space-between;
+    width: 250px;
+    height: 250px;
+    margin: 10px;
+    align-items: flex-end;
+    text-wrap: wrap;
+    background-color: #a8cbfb80;
+    font-size: 20px;
+    border-radius: 10px;
+}
+
+.textContent{
+    height: fit-content;
+    width: 250px;
+    background-color: white;
+    padding: 2px;
+    border-radius: 0px 0px 10px 10px;
+}
+
+.quote-holder{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e5e7eb;
+}
+
+.quote{
+    display: flex;
+    height: 650px;
+    width: 650px;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
 }
 
 .footer{
     color: rgb(31, 72, 255);
     display: flex;
     justify-content: space-around;
-    position: fixed;
-    bottom: 2px;
-    left: 0px;
-    right: 0px;
+    margin-top: 20px;
 }
 
 .footerOptions {
