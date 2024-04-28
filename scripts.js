@@ -1,3 +1,4 @@
+//#region this is the section that controls the buttons to change webpages 
 function openQuizPage(){
     window.location.href = "QuizPage.html"
 }
@@ -19,9 +20,9 @@ function openInstPage() {
 function openCourses() {
     window.open("https://www.canterbury.ac.uk/study-here/subject-areas/engineering-and-computing", "_blank");
 }
+//#endregion
 
-
-//#region this is a section of code to chnage the boxes content 
+//#region this is a section of code to change the boxes content 
 const questionBoxes1 = document.getElementById("textContent_1");
 const currentText1 = questionBoxes1.textContent;
 questionBoxes1.addEventListener("mouseover", () => {
