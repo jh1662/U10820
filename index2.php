@@ -58,7 +58,8 @@ foreach ($data as $row) {
     $colIndex = 0;
     #^ keeps tracks on what column does subjected field belongs to
     foreach ($row as $field) {
-        if ($colIndex == 4) {$html .= "<td><button onclick='window.location.href='https://$field';'>overview</button></td>";}
+        ##if ($colIndex == 4) {$html .= "<td><button onclick='window.location.href='https://$field''>overview</button></td>";}
+        if ($colIndex == 4) {$html .= "<td><a href='https://$field'>Click to see overview</a></td>";}
         #^ display URLs as HTML buttons instead
         else { $html .= "<td>$field</td>"; }
         #^ non-URL fields
