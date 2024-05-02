@@ -4,26 +4,64 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <script src="scripts.js"></script>
+    <script src="scripts.js" defer></script>
     <title>Quiz Page</title>
 </head>
 <body>
     <div class="headerHolder">
         <div class="header">
-            <img src="images/cccu logo.png" alt="cccu logo" style="height: 70px;">
-            <button class="headerOptions" onclick="openHomePage()">Home Page</button>
+            <img src="images/cccu-logo.png" alt="cccu logo" style="height: 70px;">
+            <button class="headerOptions" onclick="openHomePage()">Home</button>
             <button class="headerOptions" onclick="openQuizPage()">Quiz Page</button>
             <button class="headerOptions" onclick="openContactPage()">Contact Page</button>
             <button class="headerOptions" onclick="openCourses()">Courses Page</button>
         </div>
     </div>
+    
+    
+    <h3 id="quizTip">Guess the ? aspects on the image and click on them to reveal</h3>
+    <div id="quiz">
+        <img src="images/sernario/-1.png" id="imgSub" alt="Interactive Image Quiz"> 
+    </div>
+    <div id="control">
+        <button type="button" onclick="previousImg()">Previous</button>
+        <button type="button" onclick="revealAll()">Reveal Aspects</button>
+        <button type="button" onclick="nextImg()">Next</button>
+    </div>
 
-    <footer>
-        <div class="footer">
-            <button class="footerOptions" onclick="openAnswersDay()">Answers Day</button>
-            <button class="footerOptions" onclick="openInstPage()">Instagram Profile</button>
-            <button class="footerOptions" onclick="openXAccount()">X(Twitter) Account</button>
-        </div>
-    </footer>
+    
+    
+    
+    <div class="footer">
+        <a onclick="openAnswersDay()" title="Answers Day">
+            <img src="images/answersday-icon.jpg" alt="Answers Day">
+        </a>
+    
+        <a onclick="openInstPage()" title="Instagram Account">
+            <img src="images/instagram-icon.png" alt="Instagram">
+        </a>
+        
+        <a onclick="openXAccount()" title="Twitter Account">
+            <img src="images/x-icon.png" alt="Twitter">
+        </a>
+
+        <a onclick="openFacebookAccount()" title="Facebook Account">
+            <img src="images/facebook-icon.webp" alt="Facebook">
+        </a>
+
+        <a  onclick="openLinkedInAccount()" title="LinkedIn Account">
+            <img src="images/LinkedIn-icon.png" alt="LinkedIn">
+        </a>
+
+        <a  onclick="openYoutubeAccount()" title="Youtube Account">
+                <img src="images/youtube-icon.webp" alt="Youtube">
+        </a>
+                
+        <a  onclick="openTiktokAccount()" title="Tiktok Account">
+                    <img src="images/tiktok-icon.png" alt="Tiktok">
+        </a>
+    </div>
+
+    
 </body>
 </html>
