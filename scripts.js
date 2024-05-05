@@ -9,6 +9,9 @@ function openHomePage(){
 function openContactPage(){
     window.location.href = "Contact.html";
 }
+//#endregion
+ 
+//#region These functions are utilised to open external links
 function openAnswersDay() {
     window.open("https://www.canterbury.ac.uk/campaign/answers-day", "_blank");
 }
