@@ -3,8 +3,6 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <script src="scripts.js" defer></script>
     <title>Contact Us</title>
 </head>
 <body>
@@ -28,23 +26,25 @@
       <img src="images/Students-group-outiside-Verena.x408d287d.jpg" style="width:100%">
     </div>
     <div class="column">
+      <form action="save_contact.php" method="post">
         <label for="fname">First Name</label>
-        <input type="text" id="fname" name="firstname" placeholder="Your name..">
+        <input type="text" id="fname" name="firstname" placeholder="Your name.." required>
         <label for="lname">Last Name</label>
-        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+        <input type="text" id="lname" name="lastname" placeholder="Your last name.." required>
         <label for="email">Email </label>
-        <input type="text" id="email" name="Email" placeholder="Your Email Address..">
+        <input type="email" id="email" name="email" placeholder="Your Email Address.." required>
         <label for="phoneN">Phone Number </label>
-        <input type="text" id="PhoneN" name="phoneNumber" placeholder="Your Phone Number..">
-        <label for="Course Interested In">Course Interested In</label>
-        <select id="Course Interested In" name="Course">
-          <option value="Computer Science">Computer Science</option>
-          <option value="Engineering">Engineering</option>
-          <option value="Medicince">Medicine</option>
+        <input type="text" id="PhoneN" name="phoneNumber" placeholder="Your Phone Number.." required>
+        <label for="CourseInterestedIn">Course Interested In</label>
+        <select id="CourseInterestedIn" name="course">
+            <option value="Computer Science">Computer Science</option>
+            <option value="Engineering">Engineering</option>
+            <option value="Medicine">Medicine</option>
         </select>
-        <label for="Ask Us Something">Ask Us Something</label>
-        <textarea id="Ask Us Something" name="Ask Us Something" placeholder="Write something.." style="height:170px"></textarea>
+        <label for="AskUsSomething">Ask Us Something</label>
+        <textarea id="AskUsSomething" name="question" placeholder="Write something.." style="height:170px" required></textarea>
         <input type="submit" value="Submit">
+      </form>
     </div>
   </div>
 </div>
