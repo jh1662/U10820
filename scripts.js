@@ -9,8 +9,8 @@ function openHomePage(){
 function openContactPage(){
     window.location.href = "Contact.html";
 }
-function openCorses(){
-    window.location.href = "Courses.php";
+function openCourses() {
+    window.location.href ="Courses.php";
 }
 //#endregion
 
@@ -35,9 +35,6 @@ function openLinkedInAccount(){
 }
 function openInstPage() {
     window.open("https://www.instagram.com/canterburyccuni/?hl=en", "_blank");
-}
-function openCourses() {
-    window.location.href ="Courses.html";
 }
 //#endregion
 
