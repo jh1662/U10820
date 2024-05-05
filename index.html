@@ -13,7 +13,7 @@
 
         <div class="headerHolder">
             <div class="header">
-                <img src="images/cccu logo.png" alt="cccu logo" style="height: 70px;">
+                <img src="images/cccu-logo.png" alt="cccu logo" style="height: 70px;">
                 <button class="headerOptions" onclick="openHomePage()">Home Page</button>
                 <button class="headerOptions" onclick="openQuizPage()">Quiz Page</button>
                 <button class="headerOptions" onclick="openContactPage()">Contact Page</button>
@@ -37,6 +37,9 @@
 
 
     <div class="mainPage">
+        <div class="pageTitle">
+            Below are some frequently asked questions and anwers:
+        </div>
         <div class="mainPageItems">
             <div class="text">
                 <div class="textContent" id="textContent_1">This is a question about something else that might be very important to the user?</div> 
@@ -76,10 +79,33 @@
     
     <!-- this part is for the items in the bottom of the webpage -->
     <div class="footer">
-        <button class="footerOptions" onclick="openAnswersDay()">Answers Day</button>
-        <button class="footerOptions" onclick="openInstPage()">Instagram Profile</button>
-        <button class="footerOptions" onclick="openXAccount()">X(Twitter) Account</button>
+        <a onclick="openAnswersDay()" title="Answers Day">
+            <img src="images/answersday-icon.jpg" alt="Answers Day">
+        </a>
+    
+        <a onclick="openInstPage()" title="Instagram Account">
+            <img src="images/instagram-icon.png" alt="Instagram">
+        </a>
+        
+        <a onclick="openXAccount()" title="Twitter Account">
+            <img src="images/x-icon.png" alt="Twitter">
+        </a>
+    
+        <a onclick="openFacebookAccount()" title="Facebook Account">
+            <img src="images/facebook-icon.webp" alt="Facebook">
+        </a>
+    
+        <a  onclick="openLinkedInAccount()" title="LinkedIn Account">
+            <img src="images/LinkedIn-icon.png" alt="LinkedIn">
+        </a>
+    
+        <a  onclick="openYoutubeAccount()" title="Youtube Account">
+                <img src="images/youtube-icon.webp" alt="Youtube">
+        </a>
+                
+        <a  onclick="openTiktokAccount()" title="Tiktok Account">
+                    <img src="images/tiktok-icon.png" alt="Tiktok">
+        </a>
     </div>
-
 </body>
 </html>

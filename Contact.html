@@ -3,20 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <script src="scripts.js"></script>
     <title>Contact Us</title>
 </head>
 <body>
-        <div class="headerHolder">
-            <div class="header">
-                <img src="images/cccu logo.png" alt="cccu logo" style="height: 70px;">
-                <button class="headerOptions" onclick="openHomePage()">Home Page</button>
-                <button class="headerOptions" onclick="openQuizPage()">Quiz Page</button>
-                <button class="headerOptions" onclick="openContactPage()">Contact Page</button>
-                <button class="headerOptions" onclick="openCourses()">Courses Page</button>
-            </div>
-        </div>
+  <div class="headerHolder">
+    <div class="header">
+        <img src="images/cccu-logo.png" alt="cccu logo" style="height: 70px;">
+        <button class="headerOptions" onclick="openHomePage()">Home</button>
+        <button class="headerOptions" onclick="openQuizPage()">Quiz Page</button>
+        <button class="headerOptions" onclick="openContactPage()">Contact Page</button>
+        <button class="headerOptions" onclick="openCourses()">Courses Page</button>
+    </div>
+</div>
 
     <div class="container">
   <div style="text-align:center">
@@ -28,33 +26,59 @@
       <img src="images/Students-group-outiside-Verena.x408d287d.jpg" style="width:100%">
     </div>
     <div class="column">
+      <form action="save_contact.php" method="post">
         <label for="fname">First Name</label>
-        <input type="text" id="fname" name="firstname" placeholder="Your name..">
+        <input type="text" id="fname" name="firstname" placeholder="Your name.." required>
         <label for="lname">Last Name</label>
-        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+        <input type="text" id="lname" name="lastname" placeholder="Your last name.." required>
         <label for="email">Email </label>
-        <input type="text" id="email" name="Email" placeholder="Your Email Address..">
+        <input type="email" id="email" name="email" placeholder="Your Email Address.." required>
         <label for="phoneN">Phone Number </label>
-        <input type="text" id="PhoneN" name="phoneNumber" placeholder="Your Phone Number..">
-        <label for="Course Interested In">Course Interested In</label>
-        <select id="Course Interested In" name="Course">
-          <option value="Computer Science">Computer Science</option>
-          <option value="Engineering">Engineering</option>
-          <option value="Medicince">Medicine</option>
+        <input type="text" id="PhoneN" name="phoneNumber" placeholder="Your Phone Number.." required>
+        <label for="CourseInterestedIn">Course Interested In</label>
+        <select id="CourseInterestedIn" name="course">
+            <option value="Computer Science">Computer Science</option>
+            <option value="Engineering">Engineering</option>
+            <option value="Medicine">Medicine</option>
         </select>
-        <label for="Ask Us Something">Ask Us Something</label>
-        <textarea id="Ask Us Something" name="Ask Us Something" placeholder="Write something.." style="height:170px"></textarea>
+        <label for="AskUsSomething">Ask Us Something</label>
+        <textarea id="AskUsSomething" name="question" placeholder="Write something.." style="height:170px" required></textarea>
         <input type="submit" value="Submit">
+      </form>
     </div>
   </div>
 </div>
 
     <footer>
-        <div class="footer">
-            <button class="footerOptions" onclick="openAnswersDay()">Answers Day</button>
-            <button class="footerOptions" onclick="openInstPage()">Instagram Profile</button>
-            <button class="footerOptions" onclick="openXAccount()">X(Twitter) Account</button>
-        </div>
+      <div class="footer">
+        <a onclick="openAnswersDay()" title="Answers Day">
+            <img src="images/answersday-icon.jpg" alt="Answers Day">
+        </a>
+    
+        <a onclick="openInstPage()" title="Instagram Account">
+            <img src="images/instagram-icon.png" alt="Instagram">
+        </a>
+        
+        <a onclick="openXAccount()" title="Twitter Account">
+            <img src="images/x-icon.png" alt="Twitter">
+        </a>
+    
+        <a onclick="openFacebookAccount()" title="Facebook Account">
+            <img src="images/facebook-icon.webp" alt="Facebook">
+        </a>
+    
+        <a  onclick="openLinkedInAccount()" title="LinkedIn Account">
+            <img src="images/LinkedIn-icon.png" alt="LinkedIn">
+        </a>
+    
+        <a  onclick="openYoutubeAccount()" title="Youtube Account">
+                <img src="images/youtube-icon.webp" alt="Youtube">
+        </a>
+                
+        <a  onclick="openTiktokAccount()" title="Tiktok Account">
+                    <img src="images/tiktok-icon.png" alt="Tiktok">
+        </a>
+    </div>
     </footer>
 
 </body>
