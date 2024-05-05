@@ -1,4 +1,5 @@
-function openQuizPage(){
+//#region These are utilised to open each page across the website
+function openQuizPage() {
     window.location.href = "QuizPage.html"
 }
 function openHomePage(){
@@ -7,6 +8,9 @@ function openHomePage(){
 function openContactPage(){
     window.location.href = "Contact.html";
 }
+//#endregion
+ 
+//#region These functions are utilised to open external links
 function openAnswersDay() {
     window.open("https://www.canterbury.ac.uk/campaign/answers-day", "_blank");
 }
@@ -19,6 +23,7 @@ function openInstPage() {
 function openCourses() {
     window.open("https://www.canterbury.ac.uk/study-here/subject-areas/engineering-and-computing", "_blank");
 }
+//#endregion
 
 
 //#region this is a section of code to chnage the boxes content 
