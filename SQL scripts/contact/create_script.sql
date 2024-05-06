@@ -1,4 +1,4 @@
-CREATE TABLE `Course` (
+CREATE TABLE `contacts` (
 	`iD` INT UNSIGNED NOT NULL AUTO_INCREMENT, -- primary key
 	`firstname` TEXT DEFAULT NULL,
     `lastname` TEXT DEFAULT NULL,
