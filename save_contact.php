@@ -16,9 +16,9 @@ if (empty($firstname) || empty($lastname) || empty($email) || empty($phoneNumber
 
 // Save data to database (you can adjust this according to your database setup)
 $servername = "localhost";
-$username = "your_username";
-$password = "your_password";
-$dbname = "your_database";
+$username = "bkpff1y_admin";
+$password = "jh1662.";
+$dbname = "bkpff1y_contact";
 
 // Create connection
 $conn = new mysqli($servername, $username, $password, $dbname);
