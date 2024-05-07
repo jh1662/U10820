@@ -397,3 +397,45 @@ a:hover {
     border-radius: 0px 0px 10px 10px;
     cursor: default;
 }
+@media only screen and (max-width: 768px) {
+    .header {
+        flex-direction: column;
+        align-items: center;
+    }
+    .title {
+        font-size: 3rem;
+    }
+    .subHeadingHolder {
+        width: auto;
+        padding: 0 10px;
+    }
+    .subTitle {
+        padding-left: 0;
+        font-size: 20px;
+        text-align: center;
+    }
+    .mainPage {
+        padding: 20px;
+    }
+    .mainPageItems, .CTmainPageItems {
+        width: 100%;
+    }
+    .text, .CTtext {
+        width: calc(50% - 20px); /* Adjusted width */
+        height: 150px; /* Adjusted height */
+        font-size: 14px; /* Adjusted font-size */
+        margin: 5px;
+    }
+    .textContent, .CTtextContent {
+        width: calc(100% - 4px);
+    }
+    .quote {
+        width: 90%;
+        height: auto;
+        font-size: 20px;
+    }
+    .footer {
+        flex-direction: column;
+        text-align: center;
+    }
+}
