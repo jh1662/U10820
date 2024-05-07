@@ -82,9 +82,9 @@ body {
 
 .mainPage {
     display: flex;
-    height: 100vh; 
-    justify-content: center; 
-    align-items: center; 
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
     flex-direction: column;
     padding: 50px;
 }
@@ -95,8 +95,8 @@ body {
     align-items: center;
     font-size: 20px;
     font-weight: 600;
-    color: Black; 
-    margin-bottom: 20px; 
+    color: Black;
+    margin-bottom: 20px;
 }
 
 .mainPageItems {
@@ -122,39 +122,39 @@ body {
 }
 
 .text:nth-child(1) {
-    background-image: url('C:\\Users\\antho\\Downloads\\U10820\\images\\RANDOM FACTS\\canterbury punting.jpg');
+    background-image: url('images/RANDOM FACTS/canterbury punting.jpg');
 }
 
 .text:nth-child(2) {
-    background-image: url('C:\\Users\\antho\\Downloads\\U10820\\images\\RANDOM FACTS\\Canterbury West Station.jpg');
+    background-image: url('images/RANDOM FACTS/Canterbury West Station.jpg');
 }
 
 .text:nth-child(3) {
-    background-image: url('C:\\Users\\antho\\Downloads\\U10820\\images\\RANDOM FACTS\\St Lawrence Ground.jpg');
+    background-image: url('images/RANDOM FACTS/St Lawrence Ground.jpg');
 }
 
 .text:nth-child(4) {
-    background-image: url('C:\\Users\\antho\\Downloads\\U10820\\images\\RANDOM FACTS\\City Walls.jpg');
+    background-image: url('images/RANDOM FACTS/City Walls.jpg');
 }
 
 .text:nth-child(5) {
-    background-image: url('C:\\Users\\antho\\Downloads\\U10820\\images\\RANDOM FACTS\\Buttermarket.jpg');
+    background-image: url('images/RANDOM FACTS/Buttermarket.jpg');
 }
 
 .text:nth-child(6) {
-    background-image: url('C:\\Users\\antho\\Downloads\\U10820\\images\\RANDOM FACTS\\OIP.jpg');
+    background-image: url('images/RANDOM FACTS/OIP.jpg');
 }
 
 .text:nth-child(7) {
-    background-image: url('C:\\Users\\antho\\Downloads\\U10820\\images\\RANDOM FACTS\\Canterbury Castle.jpg');
+    background-image: url('images/RANDOM FACTS/Canterbury Castle.jpg');
 }
 
 .text:nth-child(8) {
-    background-image: url('C:\\Users\\antho\\Downloads\\U10820\\images\\RANDOM FACTS\\Canterbury Cathedral.jpg');
+    background-image: url('images/RANDOM FACTS/Canterbury Cathedral.jpg');
 }
 
 .text:nth-child(9) {
-    background-image: url('C:\\Users\\antho\\Downloads\\U10820\\images\\RANDOM FACTS\\marlowe theatre.webp');
+    background-image: url('images/RANDOM FACTS/marlowe theatre.webp');
 }
 
 .textContent {
@@ -353,39 +353,39 @@ a:hover {
 }
 
 .CTtext:nth-child(1) {
-    background-image: url('C:\Users\antho\Downloads\U10820\images\Contact Page\Financial Support.jpg');
+    background-image: url('images/Contact Page/Financial Support.jpg');
 }
 
 .CTtext:nth-child(2) {
-    background-image: url('C:\Users\antho\Downloads\U10820\images\Contact Page\Careers.jpg');
+    background-image: url('images/Contact Page/Careers.jpg');
 }
 
 .CTtext:nth-child(3) {
-    background-image: url('C:\Users\antho\Downloads\U10820\images\Contact Page\Student Counselling.jpg');
+    background-image: url('images/Contact Page/Student Counselling.jpg');
 }
 
 .CTtext:nth-child(4) {
-    background-image: url('C:\Users\antho\Downloads\U10820\images\Contact Page\Soceity.jpg');
+    background-image: url('images/Contact Page/Soceity.jpg');
 }
 
 .CTtext:nth-child(5) {
-    background-image: url('C:\Users\antho\Downloads\U10820\images\Contact Page\undergraduate research.jpg');
+    background-image: url('images/Contact Page/undergraduate research.jpg');
 }
 
 .CTtext:nth-child(6) {
-    background-image: url('C:\Users\antho\Downloads\U10820\images\Contact Page\meetings.jpg');
+    background-image: url('images/Contact Page/meetings.jpg');
 }
 
 .CTtext:nth-child(7) {
-    background-image: url('C:\Users\antho\Downloads\U10820\images\Contact Page\enterprise.jpg');
+    background-image: url('images/Contact Page/enterprise.jpg');
 }
 
 .CTtext:nth-child(8) {
-    background-image: url('C:\Users\antho\Downloads\U10820\images\Contact Page\Accomodation.jpg');
+    background-image: url('images/Contact Page/Accomodation.jpg');
 }
 
 .CTtext:nth-child(9) {
-    background-image: url('C:\Users\antho\Downloads\U10820\images\Contact Page\inclusivity.jpg');
+    background-image: url('images/Contact Page/inclusivity.jpg');
 }
 
 .CTtextContent {
