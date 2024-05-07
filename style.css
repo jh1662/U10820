@@ -213,8 +213,14 @@ body {
     border-radius: 5px;
     background-color: #f2f2f2;
     padding: 10px;
+    
+    
 }
-
+.row{
+    display: flex;
+    
+    flex-wrap: wrap;
+}
 .column {
     float: left;
     width: 50%;
@@ -397,6 +403,7 @@ a:hover {
     border-radius: 0px 0px 10px 10px;
     cursor: default;
 }
+<<<<<<< HEAD
 @media only screen and (max-width: 768px) {
     .header {
         flex-direction: column;
@@ -438,4 +445,11 @@ a:hover {
         flex-direction: column;
         text-align: center;
     }
+=======
+
+
+#test{
+    display: flex;
+    flex-direction: column;
+>>>>>>> 101d4418027f18e928105c9c7a647f76a78d67ce
 }
