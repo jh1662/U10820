@@ -61,14 +61,7 @@ body {
     font-size: 4rem;
     font-weight: bold;
     padding-left: 19vw;
-<<<<<<< HEAD
     font-family: Georgia, 'Times New Roman', Times, serif;
-=======
-    font-family:Georgia, 'Times New Roman', Times, serif;
-    color: whitesmoke;
-    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.6);
-    
->>>>>>> ef00c209d38bf4ef31bb0b55ce6a5ef97d45058a
 }
 
 .subHeadingHolder {
@@ -89,17 +82,11 @@ body {
 
 .mainPage {
     display: flex;
-    height: fit-content;
-    margin: 20px;
-    justify-content: center;
-    align-items: flex-start;
+    height: 100vh; 
+    justify-content: center; 
+    align-items: center; 
     flex-direction: column;
     padding: 50px;
-    flex: 1;
-<<<<<<< HEAD
-=======
-    background-image: url('images/homepage-reels-thumbnail-v8.xd02f67af.webp');
->>>>>>> ef00c209d38bf4ef31bb0b55ce6a5ef97d45058a
 }
 
 .pageTitle {
@@ -108,14 +95,16 @@ body {
     align-items: center;
     font-size: 20px;
     font-weight: 600;
-    color: whitesmoke;
+    color: Black; 
+    margin-bottom: 20px; 
 }
 
 .mainPageItems {
     display: flex;
     width: 813px;
     flex-wrap: wrap;
-    height: 810px;
+    height: auto;
+    margin-bottom: 40px; /* Adjust the margin-bottom as needed */
 }
 
 .text {
@@ -126,11 +115,7 @@ body {
     margin: 10px;
     align-items: flex-end;
     text-wrap: wrap;
-<<<<<<< HEAD
-    /* background-color: #a8cbfb80; Remove this line */
-=======
     background-color: rgb(4, 4, 85);
->>>>>>> ef00c209d38bf4ef31bb0b55ce6a5ef97d45058a
     font-size: 20px;
     border-radius: 10px;
     background-size: cover; /* Adjusted property */
@@ -343,4 +328,71 @@ a:hover {
 .centered-text {
     display: block;
     text-align: center;
+}
+
+.CTmainPageItems {
+    display: flex;
+    width: 813px;
+    flex-wrap: wrap;
+    height: auto;
+    margin-bottom: 40px; /* Adjust the margin-bottom as needed */
+}
+
+.CTtext {
+    border: 2px solid black;
+    display: flex;
+    width: 200px; /* Adjusted width */
+    height: 200px; /* Adjusted height */
+    margin: 10px;
+    align-items: flex-end;
+    text-wrap: wrap;
+    background-color: rgb(4, 4, 85);
+    font-size: 16px; /* Adjusted font-size */
+    border-radius: 10px;
+    background-size: cover; /* Adjusted property */
+}
+
+.CTtext:nth-child(1) {
+    background-image: url('C:\Users\antho\Downloads\U10820\images\Contact Page\Financial Support.jpg');
+}
+
+.CTtext:nth-child(2) {
+    background-image: url('C:\Users\antho\Downloads\U10820\images\Contact Page\Careers.jpg');
+}
+
+.CTtext:nth-child(3) {
+    background-image: url('C:\Users\antho\Downloads\U10820\images\Contact Page\Student Counselling.jpg');
+}
+
+.CTtext:nth-child(4) {
+    background-image: url('C:\Users\antho\Downloads\U10820\images\Contact Page\Soceity.jpg');
+}
+
+.CTtext:nth-child(5) {
+    background-image: url('C:\Users\antho\Downloads\U10820\images\Contact Page\undergraduate research.jpg');
+}
+
+.CTtext:nth-child(6) {
+    background-image: url('C:\Users\antho\Downloads\U10820\images\Contact Page\meetings.jpg');
+}
+
+.CTtext:nth-child(7) {
+    background-image: url('C:\Users\antho\Downloads\U10820\images\Contact Page\enterprise.jpg');
+}
+
+.CTtext:nth-child(8) {
+    background-image: url('C:\Users\antho\Downloads\U10820\images\Contact Page\Accomodation.jpg');
+}
+
+.CTtext:nth-child(9) {
+    background-image: url('C:\Users\antho\Downloads\U10820\images\Contact Page\inclusivity.jpg');
+}
+
+.CTtextContent {
+    height: fit-content;
+    width: 250px;
+    background-color: white;
+    padding: 2px;
+    border-radius: 0px 0px 10px 10px;
+    cursor: default;
 }

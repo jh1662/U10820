@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="scripts.js" defer></script>
     <title>Contact Us</title>
 </head>
 <body>
-  <div class="headerHolder">
+<div class="headerHolder">
     <div class="header">
         <img src="images/cccu-logo.png" alt="cccu logo" style="height: 70px;">
         <button class="headerOptions" onclick="openHomePage()">Home</button>
@@ -18,41 +18,72 @@
     </div>
 </div>
 
-    <div class="container">
-  <div style="text-align:center">
-    <h2>Contact Us</h2>
-    <p>Need some more information? Leave us your details and we'll be in touch!</p>
-  </div>
-  <div class="row">
-    <div class="column">
-      <img src="images/Students-group-outiside-Verena.x408d287d.jpg" style="width:100%">
+<div class="container">
+    <div style="text-align:center">
+        <h2>Contact Us</h2>
+        <p>Need some more information? Leave us your details and we'll be in touch!</p>
     </div>
-    <div class="column">
-      <form action="save_contact.php" method="post">
-        <label for="fname">First Name</label>
-        <input type="text" id="fname" name="firstname" placeholder="Your name.." required>
-        <label for="lname">Last Name</label>
-        <input type="text" id="lname" name="lastname" placeholder="Your last name.." required>
-        <label for="email">Email </label>
-        <input type="email" id="email" name="email" placeholder="Your Email Address.." required>
-        <label for="phoneN">Phone Number </label>
-        <input type="text" id="PhoneN" name="phoneNumber" placeholder="Your Phone Number.." required>
-        <label for="CourseInterestedIn">Course Interested In</label>
-        <select id="CourseInterestedIn" name="course">
-            <option value="Computer Science">Computer Science</option>
-            <option value="Engineering">Engineering</option>
-            <option value="Medicine">Medicine</option>
-        </select>
-        <label for="AskUsSomething">Ask Us Something</label>
-        <textarea id="AskUsSomething" name="question" placeholder="Write something.." style="height:170px" required></textarea>
-        <input type="submit" value="Submit">
-      </form>
+    <div class="row">
+        <div class="column">
+            <div class="pageTitle">
+                Here are what we have to offer:
+            </div>
+            <div class="CTmainPageItems">
+                <div class="CTtext">
+                    <div class="CTtextContent" id="CTtextContent_1">We offer scholarships, grants, loans, and work-study programs.</div>
+                </div>
+                <div class="CTtext">
+                    <div class="CTtextContent" id="CTtextContent_2">We host career fairs, networking events, and offer internship opportunities. </div>
+                </div>
+                <div class="CTtext">
+                    <div class="CTtextContent" id="CTtextContent_3">We provide tutoring, advising, career counseling and academic mentoring.</div>
+                </div>
+                <div class="CTtext">
+                    <div class="CTtextContent" id="CTtextContent_4">We have diverse clubs, societies, and events catering to various interests.</div>
+                </div>
+                <div class="CTtext">
+                    <div class="CTtextContent" id="CTtextContent_5">Undergraduates can engage in research projects with faculty mentorship.</div>
+                </div>
+                <div class="CTtext">
+                    <div class="CTtextContent" id="CTtextContent_6">We have numerous systems for contacting professors, Emails, Blackboard, Teams... </div>
+                </div>
+                <div class="CTtext">
+                    <div class="CTtextContent" id="CTtextContent_7">Our career center provides guidance on resumes, interviews, and job searches.</div>
+                </div>
+                <div class="CTtext">
+                    <div class="CTtextContent" id="CTtextContent_8">We offer various off-campus accommodations and amenities,including libraries.</div>
+                </div>
+                <div class="CTtext">
+                    <div class="CTtextContent" id="CTtextContent_9">We provide programs and support services to foster a welcoming and inclusive campus community.</div>
+                </div>
+            </div>
+        </div>
+        <div class="column">
+            <form action="save_contact.php" method="post">
+                <label for="fname">First Name</label>
+                <input type="text" id="fname" name="firstname" placeholder="Your name.." required>
+                <label for="lname">Last Name</label>
+                <input type="text" id="lname" name="lastname" placeholder="Your last name.." required>
+                <label for="email">Email </label>
+                <input type="email" id="email" name="email" placeholder="Your Email Address.." required>
+                <label for="phoneN">Phone Number </label>
+                <input type="text" id="PhoneN" name="phoneNumber" placeholder="Your Phone Number.." required>
+                <label for="CourseInterestedIn">Course Interested In</label>
+                <select id="CourseInterestedIn" name="course">
+                    <option value="Computer Science">Computer Science</option>
+                    <option value="Engineering">Engineering</option>
+                    <option value="Medicine">Medicine</option>
+                </select>
+                <label for="AskUsSomething">Ask Us Something</label>
+                <textarea id="AskUsSomething" name="question" placeholder="Write something.." style="height:170px" required></textarea>
+                <input type="submit" value="Submit">
+            </form>
+        </div>
     </div>
-  </div>
 </div>
 
-    <footer>
-      <div class="footer">
+<footer>
+    <div class="footer">
         <a onclick="openAnswersDay()" title="Answers Day">
             <img src="images/answersday-icon.jpg" alt="Answers Day">
         </a>
@@ -69,19 +100,19 @@
             <img src="images/facebook-icon.webp" alt="Facebook">
         </a>
 
-        <a  onclick="openLinkedInAccount()" title="LinkedIn Account">
+        <a onclick="openLinkedInAccount()" title="LinkedIn Account">
             <img src="images/LinkedIn-icon.png" alt="LinkedIn">
         </a>
 
-        <a  onclick="openYoutubeAccount()" title="Youtube Account">
-                <img src="images/youtube-icon.webp" alt="Youtube">
+        <a onclick="openYoutubeAccount()" title="Youtube Account">
+            <img src="images/youtube-icon.webp" alt="Youtube">
         </a>
 
-        <a  onclick="openTiktokAccount()" title="Tiktok Account">
-                    <img src="images/tiktok-icon.png" alt="Tiktok">
+        <a onclick="openTiktokAccount()" title="Tiktok Account">
+            <img src="images/tiktok-icon.png" alt="Tiktok">
         </a>
     </div>
-    </footer>
+</footer>
 
 </body>
 </html>
