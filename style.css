@@ -48,6 +48,7 @@ body {
 }
 
 .titleHolder {
+    justify-content: center;
     display: flex;
     height: fit-content;
     color: whitesmoke;
@@ -60,7 +61,7 @@ body {
     width: fit-content;
     font-size: 4rem;
     font-weight: bold;
-    padding-left: 19vw;
+    /*padding-left: 19vw;*/
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
