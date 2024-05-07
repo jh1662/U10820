@@ -4,7 +4,7 @@ function openQuizPage(){
     window.location.href = "QuizPage.html"
 }
 function openHomePage(){
-    window.location.href = "Homepage.html";
+    window.location.href = "index.html";
 }
 function openContactPage(){
     window.location.href = "Contact.html";
