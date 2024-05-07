@@ -9,7 +9,7 @@ body {
 
 .headerHolder {
     width: 100%;
-    background-color: #003366;
+    background-color: rgb(4, 4, 85);
     color: white;
     padding: 0.5rem 0;
     border-radius: 20px;
@@ -43,13 +43,15 @@ body {
     display: flex;
     justify-content: center;
     flex-direction: column;
-    background-color: #72a9f680;
-    margin: -1px;
+    background-color: rgb(4, 4, 85);
+    margin: 10px;
 }
 
 .titleHolder {
     display: flex;
     height: fit-content;
+    color: whitesmoke;
+    padding: 5px 10px;
 }
 
 .title {
@@ -57,9 +59,16 @@ body {
     justify-content: center;
     width: fit-content;
     font-size: 4rem;
-    font-weight: 900;
+    font-weight: bold;
     padding-left: 19vw;
+<<<<<<< HEAD
     font-family: Georgia, 'Times New Roman', Times, serif;
+=======
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: whitesmoke;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.6);
+    
+>>>>>>> ef00c209d38bf4ef31bb0b55ce6a5ef97d45058a
 }
 
 .subHeadingHolder {
@@ -67,6 +76,7 @@ body {
     margin-top: -50px;
     width: 80vw;
     text-align: center;
+    color: whitesmoke;
 }
 
 .subTitle {
@@ -82,10 +92,14 @@ body {
     height: fit-content;
     margin: 20px;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
     flex-direction: column;
     padding: 50px;
     flex: 1;
+<<<<<<< HEAD
+=======
+    background-image: url('images/homepage-reels-thumbnail-v8.xd02f67af.webp');
+>>>>>>> ef00c209d38bf4ef31bb0b55ce6a5ef97d45058a
 }
 
 .pageTitle {
@@ -94,6 +108,7 @@ body {
     align-items: center;
     font-size: 20px;
     font-weight: 600;
+    color: whitesmoke;
 }
 
 .mainPageItems {
@@ -111,7 +126,11 @@ body {
     margin: 10px;
     align-items: flex-end;
     text-wrap: wrap;
+<<<<<<< HEAD
     /* background-color: #a8cbfb80; Remove this line */
+=======
+    background-color: rgb(4, 4, 85);
+>>>>>>> ef00c209d38bf4ef31bb0b55ce6a5ef97d45058a
     font-size: 20px;
     border-radius: 10px;
     background-size: cover; /* Adjusted property */
@@ -168,6 +187,7 @@ body {
     align-items: center;
     background-color: #e5e7eb;
     margin: -8px;
+    background-image: url('images/Mental-Health.x284603af.webp');
 }
 
 .quote {
@@ -176,7 +196,9 @@ body {
     width: 650px;
     justify-content: center;
     align-items: center;
-    font-size: 25px;
+    font-size: 30px;
+    font-weight: 700;
+    color: white;
 }
 
 .footer {
@@ -184,9 +206,9 @@ body {
     justify-content: space-around;
     align-items: center;
     padding: 20px;
-    background-color: #003366;
+    background-color: rgb(4, 4, 85);
     color: white;
-    margin-top: 100px;
+    margin-top: 20px;
     border-radius: 20px;
     overflow: hidden;
 }
@@ -254,7 +276,7 @@ input[type=submit]:hover {
     width: 100%;
     margin: 20px auto;
     padding: 20px;
-    background: #f4f4f4;
+    background:rgb(4, 4, 85)
 }
 
 #imgSub {
@@ -270,7 +292,7 @@ input[type=submit]:hover {
 }
 
 #control button {
-    background-color: #0056b3;
+    background-color: rgb(4, 4, 85);
     color: white;
     border: none;
     padding: 10px 20px;
