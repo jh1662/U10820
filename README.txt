@@ -2,7 +2,7 @@ IMPORTANT:
 
 This website was made to be implemented on the server instead of locally.
 
-The website server page can be viewed here: www.jh1662.webhosting.canterbury.ac.uk
+The website server page can be viewed here: www.jh1662.webhosting.canterbury.ac.uk <-- PLEASE VIEW THIS INSTEAD OF LOCALLY!!!
 
 If you try to use it locally, some web pages will not work as intened as the PHP code will not execute.
 
