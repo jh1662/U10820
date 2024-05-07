@@ -6,109 +6,121 @@
     <link rel="stylesheet" href="style.css">
     <script src="scripts.js" defer></script>
     <title>CCCU School EDT</title>
+    <style>
+        .centered-text {
+            display: block;
+            text-align: center;
+        }
+        .left-aligned-text {
+            text-align: left;
+        }
+        .titleHolder {
+            text-align: center;
+        }
+    </style>
 </head>
 <body>
 
-    <!-- this part of the code is for the items at the top of the webpage -->
+<!-- this part of the code is for the items at the top of the webpage -->
 
-        <div class="headerHolder">
-            <div class="header">
-                <img src="images/cccu-logo.png" alt="cccu logo" style="height: 70px;">
-                <button class="headerOptions" onclick="openHomePage()">Home Page</button>
-                <button class="headerOptions" onclick="openQuizPage()">Quiz Page</button>
-                <button class="headerOptions" onclick="openContactPage()">Contact Page</button>
-                <button class="headerOptions" onclick="openCourses()">Courses Page</button>
-            </div>
+<div class="headerHolder">
+    <div class="header">
+        <img src="images/cccu-logo.png" alt="cccu logo" style="height: 70px;">
+        <button class="headerOptions" onclick="openHomePage()">Home Page</button>
+        <button class="headerOptions" onclick="openQuizPage()">Quiz Page</button>
+        <button class="headerOptions" onclick="openContactPage()">Contact Page</button>
+        <button class="headerOptions" onclick="openCourses()">Courses Page</button>
+    </div>
+</div>
+
+
+
+
+<!-- this part of the code is for the main section of the webpage -->
+<div class="top-section">
+    <div class="titleHolder">
+        <h1 class="title"><span class="centered-text">Welcome</span></h1>
+    </div>
+    <div class="subHeadingHolder">
+        <h2 class="subTitle left-aligned-text">Welcome to the CCCU School of Education, Design, and Technology, your gateway to an exciting world of knowledge. Whether you're a curious learner, a budding scientist, or an aspiring engineer, we're thrilled to embark on this journey with you. Explore our resources, discover new passions, and unleash your potential.</h2>
+    </div>
+</div>
+
+
+
+<div class="mainPage">
+    <div class="pageTitle">
+        Here are some interesting and Historic Landmarks in Canterbury:
+    </div>
+    
+    <div class="mainPageItems">
+        <div class="text">
+            <div class="textContent" id="textContent_1">Canterbury Punting Tours</div>
         </div>
-
-
-
-
-    <!-- this part of the code is for the main section of the webpage -->
-    <div class="top-section">
-        <div class="titleHolder">
-            <h1 class="title">Welcome</h1>
+        <div class="text">
+            <div class="textContent" id="textContent_2">Canterbury West Station</div>
         </div>
-        <div class="subHeadingHolder">
-            <h2 class="subTitle">Welcome to the CCCU School of Eduction, Design and Technology, your gateway to an exciting world of knowledge. Whether you're a curious learner, a budding scientist, or an aspiring engineer, we're thrilled to embark on this journey with you. Explore our resources, discover new passions, and unleash your potential.</h2>
+        <div class="text">
+            <div class="textContent" id="textContent_3">St Lawrence Grounds</div>
+        </div>
+        <div class="text">
+            <div class="textContent" id="textContent_4">Medieval City Walls</div>
+        </div>
+        <div class="text">
+            <div class="textContent" id="textContent_5">Canterbury Butter Market</div>
+        </div>
+        <div class="text">
+            <div class="textContent" id="textContent_6">WestGate Canterbury</div>
+        </div>
+        <div class="text">
+            <div class="textContent" id="textContent_7">Canterbury Castle</div>
+        </div>
+        <div class="text">
+            <div class="textContent" id="textContent_8">Canterbury Cathedral</div>
+        </div>
+        <div class="text">
+            <div class="textContent" id="textContent_9">Marlowe Theatre</div>
         </div>
     </div>
+</div>
 
+<div class="quote-holder">
+    <div class="quote">
+        Visit Us
 
-
-    <div class="mainPage">
-        <div class="pageTitle">
-            Below are some frequently asked questions and anwers:
-        </div>
-        
-        <div class="mainPageItems">
-            <div class="text">
-                <div class="textContent" id="textContent_1">What are the admission requirements for undergraduate/graduate programs?</div>
-            </div>
-            <div class="text">
-                <div class="textContent" id="textContent_2">What financial aid options are available for students?</div>
-            </div>
-            <div class="text">
-                <div class="textContent" id="textContent_3">What support services are there for students?</div>
-            </div>
-            <div class="text">
-                <div class="textContent" id="textContent_4">Tell me about campus life and extracurriculars</div>
-            </div>
-            <div class="text">
-                <div class="textContent" id="textContent_5">Are there research opportunities for undergraduates?</div>
-            </div>
-            <div class="text">
-                <div class="textContent" id="textContent_6">How accessible are professors?</div>
-            </div>
-            <div class="text">
-                <div class="textContent" id="textContent_7">What career services are offered?</div>
-            </div>
-            <div class="text">
-                <div class="textContent" id="textContent_8">What housing options and amenities are available?</div>
-            </div>
-            <div class="text">
-                <div class="textContent" id="textContent_9">How does the university promote diversity and inclusion?</div>
-            </div>
-        </div>
+        We invite you to visit our campus and experience the Canterbury Christ Church University difference for yourself. Attend an admissions information session, take a campus tour, meet with faculty members, and explore our facilities. We're confident that once you visit Canterbury Christ Church University, you'll see why it's the perfect place to pursue your academic and personal goals.
     </div>
+</div>
 
-    <div class="quote-holder">
-        <div class="quote">
-            Visit Us
+<!-- this part is for the items in the bottom of the webpage -->
+<div class="footer">
+    <a onclick="openAnswersDay()" title="Answers Day">
+        <img src="images/answersday-icon.jpg" alt="Answers Day">
+    </a>
 
-            We invite you to visit our campus and experience the Canterbury Christ Church University difference for yourself. Attend an admissions information session, take a campus tour, meet with faculty members, and explore our facilities. We're confident that once you visit Canterbury Christ Church University, you'll see why it's the perfect place to pursue your academic and personal goals.
-        </div>
-    </div>
+    <a onclick="openInstPage()" title="Instagram Account">
+        <img src="images/instagram-icon.png" alt="Instagram">
+    </a>
 
-    <!-- this part is for the items in the bottom of the webpage -->
-    <div class="footer">
-        <a onclick="openAnswersDay()" title="Answers Day">
-            <img src="images/answersday-icon.jpg" alt="Answers Day">
-        </a>
+    <a onclick="openXAccount()" title="Twitter Account">
+        <img src="images/x-icon.png" alt="Twitter">
+    </a>
 
-        <a onclick="openInstPage()" title="Instagram Account">
-            <img src="images/instagram-icon.png" alt="Instagram">
-        </a>
+    <a onclick="openFacebookAccount()" title="Facebook Account">
+        <img src="images/facebook-icon.webp" alt="Facebook">
+    </a>
 
-        <a onclick="openXAccount()" title="Twitter Account">
-            <img src="images/x-icon.png" alt="Twitter">
-        </a>
+    <a  onclick="openLinkedInAccount()" title="LinkedIn Account">
+        <img src="images/LinkedIn-icon.png" alt="LinkedIn">
+    </a>
 
-        <a onclick="openFacebookAccount()" title="Facebook Account">
-            <img src="images/facebook-icon.webp" alt="Facebook">
-        </a>
+    <a  onclick="openYoutubeAccount()" title="Youtube Account">
+        <img src="images/youtube-icon.webp" alt="Youtube">
+    </a>
 
-        <a  onclick="openLinkedInAccount()" title="LinkedIn Account">
-            <img src="images/LinkedIn-icon.png" alt="LinkedIn">
-        </a>
-
-        <a  onclick="openYoutubeAccount()" title="Youtube Account">
-                <img src="images/youtube-icon.webp" alt="Youtube">
-        </a>
-
-        <a  onclick="openTiktokAccount()" title="Tiktok Account">
-                    <img src="images/tiktok-icon.png" alt="Tiktok">
-        </a>
-    </div>
+    <a  onclick="openTiktokAccount()" title="Tiktok Account">
+        <img src="images/tiktok-icon.png" alt="Tiktok">
+    </a>
+</div>
 </body>
 </html>
