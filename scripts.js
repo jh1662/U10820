@@ -102,3 +102,17 @@ questionBoxes9.addEventListener("mouseover", () => {
 });
 questionBoxes9.addEventListener("mouseleave", () => questionBoxes9.innerText = currentText3);
 //#endregion
+
+
+var windowWidth = innerWidth;
+
+window.addEventListener('resize', function() {
+    // Check window inner width
+    if (window.innerWidth < 500) {
+        // If smaller than 500px, add a class to the container
+        document.querySelector('.container').setAttribute("test")
+    } else {
+        // If larger than 500px, remove the class
+        document.querySelector('.container').removeAttribute("test")
+    }
+})

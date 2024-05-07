@@ -212,8 +212,14 @@ body {
     border-radius: 5px;
     background-color: #f2f2f2;
     padding: 10px;
+    
+    
 }
-
+.row{
+    display: flex;
+    
+    flex-wrap: wrap;
+}
 .column {
     float: left;
     width: 50%;
@@ -395,4 +401,10 @@ a:hover {
     padding: 2px;
     border-radius: 0px 0px 10px 10px;
     cursor: default;
+}
+
+
+#test{
+    display: flex;
+    flex-direction: column;
 }
